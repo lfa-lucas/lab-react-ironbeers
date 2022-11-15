@@ -9,8 +9,10 @@
 .beer-card{
     display: flex;    
     margin: 10px 0;
-    border: 2px solid rgb(209, 208, 208);
-    border-radius: 10px;
+    /* border: 2px solid rgb(209, 208, 208); */
+    border-bottom: 2px solid rgb(209, 208, 208);
+    border-top: 2px solid rgb(209, 208, 208);
+    border-radius: 50px;
     
     
 }
@@ -32,7 +34,9 @@
 }
 
 .beer-image>img{    
-    height: 40vh;
+    height: 30vh;
+    width: auto;
+
 }
 
 .beer-name{
@@ -49,5 +53,12 @@
 
 .beer-creator{
     font-size: small;
+}
+
+.error-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 88vh;
 }
 

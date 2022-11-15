@@ -1,0 +1,45 @@
+.beer-name{
+    font-size: xx-large;
+    color: black;
+    margin: 10px 0;
+}
+
+.tagline{
+    font-size: large;
+    color: rgb(175, 174, 174);
+    margin-bottom: 10px;
+}
+
+.attenuation_level{
+    font-size: x-large;
+    color: rgb(199, 197, 197);
+    margin: 10px 0;
+}
+
+.first_brewed{
+    font-weight: bold;
+}
+
+.description{
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.contributed_by{
+    color: rgb(175, 174, 174);
+    font-weight: bold;
+}
+
+.image{
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.image>img{
+    max-width: 20vw;
+    max-height: 58vh;
+}
+
+.button{    
+    padding: 0 100px;
+}
